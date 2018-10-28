@@ -99,12 +99,12 @@ class Footer extends Component {
                 </div>
                 <div className={styles.column}>
                     <a href="https://itunes.apple.com/us/app/venmo/id351727428?mt=8">
-                        <img src={appstore} alt="Apple Store"/>
+                        <img className={styles.appLogos} src={appstore} alt="Apple Store"/>
                     </a>
                 </div>
                 <div className={styles.column}>
                     <a href="https://play.google.com/store/apps/details?id=com.venmo">
-                        <img src={googleplay} alt="Google Play"/>
+                        <img className={styles.appLogos} src={googleplay} alt="Google Play"/>
                     </a>
                 </div>
             </div>

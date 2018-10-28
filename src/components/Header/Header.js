@@ -5,7 +5,7 @@ import logo from "../../resources/img/venmo_logo_blue.png";
 const Header = (props) => {
   return (
     <div id={styles.header}>
-        <a href="#">
+        <a href="/">
           <img
             id={styles.logo}
             src={logo} />
