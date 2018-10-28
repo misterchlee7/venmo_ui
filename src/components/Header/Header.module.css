@@ -1,0 +1,32 @@
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 79px;
+  color: #358AC8;
+  margin-left: 5%;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+#logo{
+  width: 100px;
+  height: 20px;
+}
+
+#header > ul{
+  list-style: none;
+}
+
+#header > ul li{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.links{
+  text-decoration: none;
+  color: #358AC8;
+}
+
+#header > a.links{
+  font-weight: 600;
+}
