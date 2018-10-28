@@ -28,6 +28,10 @@
   color: #358AC8;
 }
 
+.links:hover{
+  color: #acd2e8;
+}
+
 #header > a.links{
   font-weight: 600;
   min-width: 54px;
